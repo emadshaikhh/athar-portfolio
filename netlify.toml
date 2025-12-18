@@ -1,0 +1,9 @@
+[build]
+  command = "ng build"
+  # CHANGED: "athar-portfolio" -> "Athar-Portfolio" to match your folder
+  publish = "dist/Athar-Portfolio/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
